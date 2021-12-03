@@ -1,4 +1,15 @@
-# weather-app
+<div dir="rtl">
+<h2>برنامه وضعیت آب و هوای شهرهای ایران</h2>
+<hr>
+<p>این برنامه با vue cli و vuetify توسعه داده شده است.</p>
+
+<h3>نصب برنامه</h3>
+<hr>
+</div>
+
+```
+git clone https://github.com/yasersharifi/weather_app_vuejs.git
+```
 
 ## Project setup
 ```
@@ -19,6 +30,8 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+___
+<div dir="ltr">
+<h4>یاسر شریفی زاده</h4>
+<a href="https://github.com/yasersharifi">گیت هاب من</a>
+</div>
