@@ -3,7 +3,7 @@
 <hr>
 <p>این برنامه با vue cli و vuetify توسعه داده شده است.</p>
 
-<img src="https://user-images.githubusercontent.com/79104019/144624088-f338211c-8c49-42bb-8b17-07d54b0a8ff9.png" />
+<img src="https://user-images.githubusercontent.com/79104019/145175100-0102bdbb-e57a-4709-befb-5eaaca0ae00f.png" />
   
 
 <h3>نصب برنامه</h3>
