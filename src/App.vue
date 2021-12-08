@@ -115,7 +115,7 @@ export default {
                             country: response.data.sys.country,
                             weather: response.data.weather[0].description || response.data.weather[0].main,
                             icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
-                            degree: response.data.wind.deg
+                            degree: (response.data.main.temp - 273).toFixed()
                         }
                     })
             })// end of findLatAndLon
@@ -130,7 +130,7 @@ export default {
                         country: response.data.sys.country,
                         weather: response.data.weather[0].description || response.data.weather[0].main,
                         icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
-                        degree: response.data.wind.deg
+                        degree: (response.data.main.temp - 273).toFixed()
                     }
                 })
         }
